@@ -1,0 +1,59 @@
+.navbar {
+    background: hsla(0, 97%, 25%, 1);
+
+    background: linear-gradient(360deg, hsla(0, 97%, 25%, 1) 14%, hsla(0, 100%, 0%, 1) 100%);
+    
+    background: -moz-linear-gradient(360deg, hsla(0, 97%, 25%, 1) 14%, hsla(0, 100%, 0%, 1) 100%);
+    
+    background: -webkit-linear-gradient(360deg, hsla(0, 97%, 25%, 1) 14%, hsla(0, 100%, 0%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#800202", endColorstr="#020000", GradientType=1 );
+  /* width: 80%; */
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  align-items: center;
+}
+
+.navbar2 {
+  background-color: hsla(0, 100%, 0%, 1);
+  /* width: 80%; */
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  align-items: center;
+}
+
+.navbarbutton {
+    background-color: rgb(191, 13, 13);
+    /* padding: 4px 12px; */
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    font-size: 19px;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    color: rgb(176, 170, 155);
+    /* color: rgb(184, 11, 11); */
+}
+
+ul li {
+    padding: 5px;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.homeimage img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
