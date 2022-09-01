@@ -11,6 +11,7 @@ body {
 .home {
     background-color: black;
     /* height: 1600px; */
+    margin-top: 70px;
 }
 
 .homeanimation {
