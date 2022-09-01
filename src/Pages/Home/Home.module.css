@@ -23,6 +23,7 @@ body {
 
 .homewithfilterandui {
     display: flex;
+    min-height: 580px;
 }
 
 .homegyiuidiv{
