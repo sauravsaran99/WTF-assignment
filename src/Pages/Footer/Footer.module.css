@@ -1,0 +1,18 @@
+.footer {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 30px;
+}
+
+.footerfirstul {
+    display: block;
+}
+
+.footeruidesign {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}

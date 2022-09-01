@@ -12,3 +12,48 @@ body {
     background-color: black;
     /* height: 1600px; */
 }
+
+.homeanimation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.homewithfilterandui {
+    display: flex;
+}
+
+.homegyiuidiv{
+    flex: .7;
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+}
+
+/* width */
+.homegyiuidiv::-webkit-scrollbar {
+    width: 7px !important;
+  }
+  
+  /* Track */
+  .homegyiuidiv::-webkit-scrollbar-track {
+    background: transparent !important; 
+  }
+   
+  /* Handle */
+  .homegyiuidiv::-webkit-scrollbar-thumb {
+    background: red !important; 
+    border-radius: 20px !important;
+  }
+  
+  /* Handle on hover */
+  .homegyiuidiv::-webkit-scrollbar-thumb:hover {
+    background: red !important; 
+    border-radius: 3px !important;
+  }
+
+  .homebottom {
+    color: #fff;
+}

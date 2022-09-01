@@ -1,0 +1,40 @@
+.wtf {
+    height: 340px;
+    background-color: #CB1818;
+    color: #fff;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wtfheader {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.gymline {
+    background-color: #FB5E5E;
+    height: 187px;
+    width: 48px;
+}
+
+.footerseondbox {
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+.footershadowdiv {
+    width: 130px;
+    height: 150px;
+    background-color: #e63b3b;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,44 @@
+.gymui {
+  background: hsla(0, 2%, 22%, 1);
+
+  background: linear-gradient(
+    360deg,
+    hsla(0, 2%, 22%, 1) 0%,
+    hsla(0, 2%, 10%, 1) 43%
+  );
+
+  background: -moz-linear-gradient(
+    360deg,
+    hsla(0, 2%, 22%, 1) 0%,
+    hsla(0, 2%, 10%, 1) 43%
+  );
+
+  background: -webkit-linear-gradient(
+    360deg,
+    hsla(0, 2%, 22%, 1) 0%,
+    hsla(0, 2%, 10%, 1) 43%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#393737", endColorstr="#191818", GradientType=1 );
+  width: 98%;
+  height: 280px;
+  margin: 20px;
+  border-radius: 5px;
+  display: flex;
+  position: relative;
+}
+
+.gymuicontent {
+    flex: .6;
+    color: #fff;
+}
+
+.gymuibooknowbutton {
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+    background-color: hsla(0, 97%, 25%, 1);
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 17px;
+}
