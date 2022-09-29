@@ -25,7 +25,7 @@ const gymError = (payload) => {
 export const Gymmiddleware = (data='nodia') => {
     return async (dispatch) => {
         dispatch(gymLoading());
-        await axios.get(`https://devapi.wtfup.me/gym/nearestgym?lat=30.325488815850512&long=78.0042384802231&city=${data}`).then((res) => {
+        await axios.get(`https://api.wtfup.me/gym/nearestgym?lat=30.325488815850512&long=78.0042384802231&city=${data}`).then((res) => {
             dispatch(gymSuccess(res.data));
         }).catch((err) => {
             dispatch(gymError())
